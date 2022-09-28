@@ -112,4 +112,9 @@ hr {
   font-size: 1.7em;
 }
 
-
+.documentoLuva:hover{
+  background-color: rgba(255, 255, 255, 0.055);
+}
+.documentoLuva {
+  background-color: black;
+}

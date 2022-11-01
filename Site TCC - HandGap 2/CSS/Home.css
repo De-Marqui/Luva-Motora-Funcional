@@ -1,0 +1,136 @@
+:root{
+  --background: rgba(0, 0, 0, 0.945);
+  --whiteText: rgb(219, 219, 219);
+  --secondBackground: rgba(0, 0, 0, 0.945);
+}
+
+.mainImageGlove {
+  background-color: black;
+  background-image: url(/images/homeImages/Main_Image_Glove2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size :cover;
+}
+
+.caption .title {
+  margin-bottom: 0;
+  letter-spacing: 5px;
+  color: #3b96ff;
+  left: 285px;
+  top: 50px;
+  font-weight: 500;
+  font-size: 1.25em;
+  text-transform: uppercase;
+}
+
+.caption .text {
+  font-size: 1em;
+  color: var(--whiteText);
+  text-align: justify;
+}
+
+.container_caption_1 {
+  position: relative;
+  right: 370px;
+  top: 129px;
+  height: 200px;
+  width: 300px;
+}
+
+.container_caption_2 {
+  position: relative;
+  left: 400px;
+  bottom: 152px;
+  height: 200px;
+  width: 300px;
+}
+
+.container_caption_3 {
+  position: relative;
+  right: 500px;
+  bottom: 8px;
+  height: 200px;
+  width: 300px;
+}
+
+.container_caption_4 {
+  position: relative;
+  left: 410px;
+  bottom: 192px;
+  height: 200px;
+  width: 300px;
+}
+
+hr {
+  margin: 2px;
+  background-color: rgb(141, 141, 141);
+}
+
+.horizontal_Mark_1 {
+  height: 0.5px;
+  width: 333px;
+  position: relative;
+  right: 3px;
+}
+.horizontal_Mark_2 {
+  height: 0.5px;
+  width: 505px;
+  position: relative;
+  right: 205px;
+}
+.horizontal_Mark_3 {
+  height: 0.5px;
+  width: 358px;
+  position: relative;
+  right: 2px;
+}
+.horizontal_Mark_4 {
+  height: 0.5px;
+  width: 370px;
+  position: relative;
+  right: 70px;
+}
+
+.containerDefaultUpperTitle {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #3b96ff;
+  font-size: 1.5em;
+}
+.containerDefaultTitle {
+  font-size: 5em;
+  font-weight: 700;
+}
+.containerDefaultText {
+  font-size: 1.75em;
+  text-align: justify;
+}
+.containerDefaultButton {
+  border-radius: 100px;
+  background-color: #3b96ff;
+  border: hidden;
+  font-size: 1.7em;
+}
+
+.documentoLuva:hover{
+  background-color: rgba(255, 255, 255, 0.055);
+}
+.documentoLuva {
+  background-color: black;
+}
+
+.icon{
+  height: 45px;
+}
+
+social-media-icon
+{
+  height: 30px;
+  width: 30px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--whiteText);
+  background-color: #0d6efd;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
